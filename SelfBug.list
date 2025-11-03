@@ -1,0 +1,12 @@
+# 直连列表（个人使用查漏补缺）
+
+# Okx
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
+
+# 云服务&数据追踪
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,appsflyer.com
