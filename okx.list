@@ -10,6 +10,4 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN,www.okx-dns.com
-DOMAIN,www.okx-dns1.com
-DOMAIN,www.okx-dns2.com
+DOMAIN-KEYWORD,okx-dns
