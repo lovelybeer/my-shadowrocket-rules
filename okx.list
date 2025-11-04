@@ -1,0 +1,9 @@
+# NAME: OKX
+# AUTHOR: Lovelybeer
+# REPO: https://github.com/lovelybeer/my-shadowrocket-rules
+# UPDATED: 2025-11-04 21:45:00
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
