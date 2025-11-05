@@ -2,11 +2,12 @@
 # AUTHOR: Lovelybeer
 # REPO: https://github.com/lovelybeer/my-shadowrocket-rules
 # UPDATED: 2025-11-05 15:01:46
-# DOMAIN: 3
+# DOMAIN: 4
 # DOMAIN-SUFFIX: 5
-# TOTAL: 8
+# TOTAL: 9
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN,img.notionusercontent.com
+DOMAIN,api.sprig.com
 DOMAIN,consumer.cloud.gist.build
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
