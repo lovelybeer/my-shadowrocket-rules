@@ -1,10 +1,12 @@
 # NAME: OKX
+# 涵盖蜂窝网所以规则较多
 # AUTHOR: Lovelybeer
 # REPO: https://github.com/lovelybeer/my-shadowrocket-rules
 # UPDATED: 2025-11-06 
-# DOMAIN-SUFFIX: 9
+# DOMAIN-SUFFIX: 11
 # DOMAIN-KEYWORD: 1
-# TOTAL: 10
+# DOMAIN: 4
+# TOTAL: 16
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
@@ -15,3 +17,10 @@ DOMAIN-KEYWORD,okx-dns
 DOMAIN-SUFFIX,onesignal.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,online-metrics.net
+DOMAIN-SUFFIX,gnmobile1.com
+DOMAIN-SUFFIX,gnmobile2.com
+DOMAIN,wsdexpri.gihiji.com.eo.dnse4.com
+DOMAIN,wspri.gihiji.com.eo.dnse4.com
+DOMAIN,www.gihiji.com.eo.dnse4.com
+DOMAIN,web3.gihiji.com.eo.dnse4.com
+ASN,45102
