@@ -1,11 +1,14 @@
 # NAME: OKX
+# POLICY: DIRECT
+# 用于OKX相关流量走代理
 # 涵盖蜂窝网所以规则较多
 # AUTHOR: Lovelybeer
-# REPO: https://github.com/lovelybeer/my-shadowrocket-rules
+# AUTO-UPDATE: https://raw.githubusercontent.com/lovelybeer/my-shadowrocket-rules/main/okx.list
 # UPDATED: 2025-11-06 
-# DOMAIN-SUFFIX: 11
+# DOMAIN-SUFFIX: 14
 # DOMAIN-KEYWORD: 1
-# DOMAIN: 4
+# DOMAIN: 0
+# IP-ASN: 1
 # TOTAL: 16
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
