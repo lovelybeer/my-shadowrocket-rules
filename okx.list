@@ -1,9 +1,10 @@
 # NAME: OKX
 # AUTHOR: Lovelybeer
 # REPO: https://github.com/lovelybeer/my-shadowrocket-rules
-# UPDATED: 2025-11-04 22:45:00
+# UPDATED: 2025-11-06 
 # DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# DOMAIN-KEYWORD: 1
+# TOTAL: 10
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
@@ -11,3 +12,6 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-KEYWORD,okx-dns
+DOMAIN-SUFFIX,onesignal.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,online-metrics.net
