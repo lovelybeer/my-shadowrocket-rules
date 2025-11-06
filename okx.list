@@ -19,8 +19,8 @@ DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,online-metrics.net
 DOMAIN-SUFFIX,gnmobile1.com
 DOMAIN-SUFFIX,gnmobile2.com
-DOMAIN,wsdexpri.gihiji.com.eo.dnse4.com
-DOMAIN,wspri.gihiji.com.eo.dnse4.com
-DOMAIN,www.gihiji.com.eo.dnse4.com
-DOMAIN,web3.gihiji.com.eo.dnse4.com
-ASN,45102
+DOMAIN-SUFFIX,wsdexpri.gihiji.com.eo.dnse4.com
+DOMAIN-SUFFIX,wspri.gihiji.com.eo.dnse4.com
+DOMAIN-SUFFIX,gihiji.com.eo.dnse4.com
+DOMAIN-SUFFIX,web3.gihiji.com.eo.dnse4.com
+IP-ASN,45102
