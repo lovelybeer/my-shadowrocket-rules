@@ -4,12 +4,13 @@
 # 涵盖蜂窝网所以规则较多
 # AUTHOR: Lovelybeer
 # AUTO-UPDATE: https://raw.githubusercontent.com/lovelybeer/my-shadowrocket-rules/main/okx.list
-# UPDATED: 2025-11-06 
-# DOMAIN-SUFFIX: 14
+# UPDATED: 2025-11-07 
+# DOMAIN-SUFFIX: 20
 # DOMAIN-KEYWORD: 1
 # DOMAIN: 0
 # IP-ASN: 1
-# TOTAL: 16
+# TOTAL: 22
+
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
@@ -26,4 +27,14 @@ DOMAIN-SUFFIX,wsdexpri.gihiji.com.eo.dnse4.com
 DOMAIN-SUFFIX,wspri.gihiji.com.eo.dnse4.com
 DOMAIN-SUFFIX,gihiji.com.eo.dnse4.com
 DOMAIN-SUFFIX,web3.gihiji.com.eo.dnse4.com
+DOMAIN-SUFFIX,pulse.walletconnect.com
+DOMAIN-SUFFIX,aa.online-metrix.net
+DOMAIN-SUFFIX,h64.online-metrix.net
+DOMAIN-SUFFIX,contendvc.cnouyi.pizza
+DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,api.amplitudeexperiment.com
 IP-ASN,45102
+
+# --- IP-ASN (Optional, may overmatch) ---
+# Alibaba Cloud - may include OKX servers
+# IP-ASN,45102
