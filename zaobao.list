@@ -1,0 +1,17 @@
+# Lianhe Zaobao — minimal, observable whitelist
+# Policy: DIRECT-Policy set by RULE-SET in main profile
+# Lianhe Zaobao — minimal whitelist
+# 说明：
+# - Core 三条必留
+# - Optional 命中后再保留
+
+# --- Core ---
+DOMAIN-SUFFIX,zaobao.com.sg        # 官网与频道页[^https://www.zaobao.com.sg/home]
+DOMAIN-SUFFIX,zaobao.com           # 品牌/活动域[^https://www.zaobao.com/special/zaobao100]
+DOMAIN-SUFFIX,thinkchina.sg        # 思想中国子站[^https://www.thinkchina.sg/]
+
+# --- Optional: 命中后再保留 ---
+DOMAIN-SUFFIX,interactive.zaobao.com.sg   # 互动专题与图表[^https://zaobao.com.sg/interactive]
+DOMAIN-SUFFIX,players.brightcove.net      # 视频托管播放器[^https://www.zaobao.com.sg/products]
+DOMAIN-SUFFIX,subscribe.sph.com.sg        # 订阅购买页[^https://subscribe.sph.com.sg/publications-zb/%20]
+DOMAIN-SUFFIX,sph.com.sg                  # 条款/隐私与表单[^https://www.sph.com.sg/legal/websi
