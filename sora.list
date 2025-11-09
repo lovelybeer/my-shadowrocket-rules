@@ -1,0 +1,6 @@
+# Sora / OpenAI — conservative start
+# 建议：默认走 PROXY；出现更具体 host 后按“单域验证→有效才固化”
+# Policy set by RULE-SET in main profile
+
+# --- Base domains ---
+DOMAIN-SUFFIX,sora.com             # Sora 主域（如面向地区开放）
