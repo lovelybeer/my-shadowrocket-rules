@@ -10,6 +10,7 @@ DOMAIN,support.duolingo.com        # 帮助中心[^https://webrate.org/site/duol
 DOMAIN,schools.duolingo.com        # 学校版[^https://webrate.org/site/duolingo.com]
 DOMAIN,podcast.duolingo.com        # 官方播客[^https://webrate.org/site/duolingo.com]
 DOMAIN,blog.duolingo.com           # 官方博客[^https://webrate.org/site/duolingo.com]
+DOMAIN,excess.duolingo.com
 
 # --- Locale: 命中再保留 ---
 DOMAIN,ar.duolingo.com             # 本地化子域（示例）[^https://webrate.org/site/duolingo.com]
