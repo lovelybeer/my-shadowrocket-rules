@@ -1,6 +1,16 @@
-# Sora / OpenAI — conservative start
 # 建议：默认走 PROXY；出现更具体 host 后按“单域验证→有效才固化”
-# Policy set by RULE-SET in main profile
+
+# NAME: Sora / OpenAI
+# AUTHOR: lovelybeer
+# REPO: https://github.com/lovelybeer/my-shadowrocket-rules
+# UPDATED: <2025-11-10>
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 1
+# TOTAL: 3
 
 # --- Base domains ---
-DOMAIN-SUFFIX,sora.com             # Sora 主域（如面向地区开放）
+DOMAIN-SUFFIX,sora.com                 # Sora 主域（未来可能地区化）
+
+# --- Telemetry & diagnostics (optional / observed) ---
+DOMAIN,o33249.ingest.us.sentry.io      # Sentry 日志采集（非必须，按需保留）
+DOMAIN,api.revenuecat.com              # RevenueCat 订阅验证（OpenAI App 常用）
