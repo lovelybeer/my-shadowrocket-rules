@@ -1,0 +1,34 @@
+# Binance — minimal, observable whitelist
+# Policy set by RULE-SET in main profile
+
+# --- Core Web ---
+DOMAIN-SUFFIX,binance.com           # 官网与绝大多数功能入口（含行情/交易页）[^https://www.binance.com/en]
+DOMAIN-SUFFIX,bnbstatic.com         # 静态资源与图片 CDN（首页即大量引用 bin.bnbstatic.com）[^https://bin.bnbstatic.com/static/images/home/register/google-icon.png]
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
+
+# --- API / WS（建议先 PROXY，更稳；命中再按需直连） ---
+# 说明：官方文档未集中列出域名清单，下列为行业常见与日志常见主机名模式，按需逐条启用
+# DOMAIN,api.binance.com            # REST API（常见模式，按日志再启用）
+# DOMAIN,stream.binance.com         # 现货 WebSocket 流（常见模式）
+# DOMAIN,fapi.binance.com           # 合约（USDT-M）REST（常见模式）
+# DOMAIN,dapi.binance.com           # 合约（COIN-M）REST（常见模式）
+# DOMAIN,stream.binancefuture.com   # 合约 WebSocket（部分地区常见）
+# DOMAIN,sapi.binance.com           # 账户/子账户等 SAPI 前缀（常见模式）
+
+# --- Regional / Legal variants（命中后再保留） ---
+# DOMAIN-SUFFIX,binance.us          # 美国站（若你使用则启用）[^https://www.binance.us/crypto-domains]
+# 其他地区域名：按你的实际访问区域与日志增补
+
+# --- DNS / 验证（信息校验用，通常无需直连） ---
+# 注：binance.com DNS 信息托管在 AWS Route53，可用于你自查域名指向与可用性
+# 此段仅作说明，不加入白名单
+# SOA/NS 参考：ns-234.awsdns-29.com 等[^https://bgp.he.net/dns/binance.com]
