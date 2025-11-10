@@ -1,9 +1,8 @@
 # NAME: Grok
 # AUTHOR: Lovelybeer
 # REPO: https://github.com/lovelybeer/my-shadowrocket-rules
-# UPDATED: 2025-11-5 09:08:26
-# DOMAIN-SUFFIX: 2
-# TOTAL: 2
+# UPDATED: 2025-11-10 22:08:26
+
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,xai.chronosphere.io
+DOMAIN,xai.chronosphere.io
