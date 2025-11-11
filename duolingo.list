@@ -1,17 +1,14 @@
 # Duolingo — core domains
-# Policy set by RULE-SET in main profile
-
 # --- Core ---
-DOMAIN-SUFFIX,duolingo.com         # 主站与应用资源
-DOMAIN,englishtest.duolingo.com    # Duolingo English Test（DET）[^https://webrate.org/site/duolingo.com]
-DOMAIN,forum.duolingo.com          # 社区论坛[^https://webrate.org/site/duolingo.com]
-DOMAIN,events.duolingo.com         # 活动平台[^https://webrate.org/site/duolingo.com]
-DOMAIN,support.duolingo.com        # 帮助中心[^https://webrate.org/site/duolingo.com]
-DOMAIN,schools.duolingo.com        # 学校版[^https://webrate.org/site/duolingo.com]
-DOMAIN,podcast.duolingo.com        # 官方播客[^https://webrate.org/site/duolingo.com]
-DOMAIN,blog.duolingo.com           # 官方博客[^https://webrate.org/site/duolingo.com]
+DOMAIN-SUFFIX,duolingo.com
+DOMAIN,englishtest.duolingo.com
+DOMAIN,forum.duolingo.com
+DOMAIN,events.duolingo.com
+DOMAIN,support.duolingo.com
+DOMAIN,schools.duolingo.com
+DOMAIN,podcast.duolingo.com
+DOMAIN,blog.duolingo.com
 DOMAIN,excess.duolingo.com
-
 # --- Locale: 命中再保留 ---
-DOMAIN,ar.duolingo.com             # 本地化子域（示例）[^https://webrate.org/site/duolingo.com]
-DOMAIN,es.duolingo.com             # 本地化子域（示例）[^https://webrate.org/site/duolingo.com]
+DOMAIN,ar.duolingo.com
+DOMAIN,es.duolingo.com
