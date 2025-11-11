@@ -1,0 +1,7 @@
+# NAME: Sora
+# UPDATED: <2025-11-11>
+# --- Base domains ---
+DOMAIN-SUFFIX,sora.com
+# --- Telemetry & diagnostics (optional / observed) ---
+DOMAIN,o33249.ingest.us.sentry.io
+DOMAIN,api.revenuecat.com
