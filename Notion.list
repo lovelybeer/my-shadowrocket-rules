@@ -2,19 +2,16 @@
 # AUTHOR: Lovelybeer
 # REPO: https://github.com/lovelybeer/my-shadowrocket-rules
 # UPDATED: 2025-11-10
-
 # --- Core web/app ---
-DOMAIN-SUFFIX,notion.so                    # 早期/通用访问域（含网页端入口）
-DOMAIN-SUFFIX,notion.com                   # 官网、下载、帮助中心与账户相关页面
-DOMAIN-SUFFIX,notion.site                  # 公开页面/站点的默认域（你的工作区可申领子域）
-
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.site
 # --- Site hosting / 自定义域桥接 ---
-DOMAIN,external.notion.site                # 自定义域绑定时的 CNAME 目标
-DOMAIN,img.notionusercontent.com           # 静态/图床 CDN
-DOMAIN,notion-static.com                   # 额外公共静态资源域
-DOMAIN-SUFFIX,notion.new                   # 快捷创建页面（动态跳转）
-
+DOMAIN-SUFFIX,notion.new
+DOMAIN,external.notion.site
+DOMAIN,img.notionusercontent.com
+DOMAIN,notion-static.com
 # --- Telemetry / Diagnostics / Experimentation ---
-DOMAIN,http-inputs-notion.splunkcloud.com  # splunkcloud 日志记录/监控
-DOMAIN,api.sprig.com                       # 用户体验调查/弹窗
-DOMAIN,consumer.cloud.gist.build           # 某些实验流量/内部云资源加载（非必需）
+DOMAIN,http-inputs-notion.splunkcloud.com
+DOMAIN,api.sprig.com
+DOMAIN,consumer.cloud.gist.build
