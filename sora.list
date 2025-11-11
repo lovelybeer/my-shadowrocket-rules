@@ -1,9 +1,0 @@
-# NAME: Sora
-# AUTHOR: lovelybeer
-# REPO: https://github.com/lovelybeer/my-shadowrocket-rules
-# UPDATED: <2025-11-10>
-# --- Base domains ---
-DOMAIN-SUFFIX,sora.com
-# --- Telemetry & diagnostics (optional / observed) ---
-DOMAIN,o33249.ingest.us.sentry.io
-DOMAIN,api.revenuecat.com
