@@ -20,19 +20,17 @@ DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-KEYWORD,okx-dns
 DOMAIN-SUFFIX,onesignal.com
 DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,online-metrics.net
 DOMAIN-SUFFIX,gnmobile1.com
 DOMAIN-SUFFIX,gnmobile2.com
-DOMAIN-SUFFIX,wsdexpri.gihiji.com.eo.dnse4.com
-DOMAIN-SUFFIX,wspri.gihiji.com.eo.dnse4.com
-DOMAIN-SUFFIX,gihiji.com.eo.dnse4.com
+DOMAIN,wsdexpri.gihiji.com.eo.dnse4.com
+DOMAIN,wspri.gihiji.com.eo.dnse4.com
+DOMAIN,gihiji.com.eo.dnse4.com
 DOMAIN-SUFFIX,web3.gihiji.com.eo.dnse4.com
-DOMAIN-SUFFIX,pulse.walletconnect.com
-DOMAIN-SUFFIX,aa.online-metrix.net
-DOMAIN-SUFFIX,h64.online-metrix.net
+DOMAIN,pulse.walletconnect.com
+DOMAIN,aa.online-metrix.net
+DOMAIN,h64.online-metrix.net
 DOMAIN-SUFFIX,contendvc.cnouyi.pizza
-DOMAIN-SUFFIX,app-analytics-services.com
-DOMAIN-SUFFIX,api.amplitudeexperiment.com
+DOMAIN,api.amplitudeexperiment.com
 IP-ASN,45102
 
 # --- IP-ASN (Optional, may overmatch) ---
