@@ -1,0 +1,6 @@
+# Gemini 认证 API 专用规则
+DOMAIN,generativelanguage.googleapis.com,PROXY
+DOMAIN,oauthaccountmanager.googleapis.com,PROXY
+DOMAIN,oauth2.googleapis.com,PROXY
+DOMAIN,robinfrontend-pa.googleapis.com,PROXY
+DOMAIN,aiplatform.googleapis.com,PROXY
